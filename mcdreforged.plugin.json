@@ -1,0 +1,12 @@
+{
+    "id": "fakeplayer_limit",
+    "version": "1.0.0",
+    "name": "FakeplayerLimit",
+    "description": "假人数量限制",
+    "author": "noionion",
+    "link": "None",
+    "dependencies": {
+        "mcdreforged": ">=2.1.0",
+        "minecraft_data_api": "*"
+    }
+}
