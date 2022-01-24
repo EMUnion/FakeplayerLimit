@@ -43,7 +43,7 @@ def on_load(server, prev):
     else:
         load_config()
     server.register_help_message('!!fl <num>', 'bot数量限制')
-    server.register_command(Literal('!!fl').then(Text('num')).runs(change))
+    server.register_command(Literal('!!fl').then(Text('num').runs(change)))
 
 @new_thread(PLUGIN_METADATA['id'])
 def on_player_joined(server, player, info):
